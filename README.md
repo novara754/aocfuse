@@ -14,7 +14,9 @@ is not exactly robust and I take no responsibility for any damage that may occur
 
 ## Usage
 
-**Note:** The [Rust programming language](https://www.rust-lang.org/) needs to be installed.
+**Dependencies** 
+ - The [Rust programming language](https://www.rust-lang.org/)
+ - [fuse] and [libfuse] as discussed on the [`fuser` GitHub repository](https://github.com/cberner/fuser#dependencies)
 
 The filesystem can be mounted by running `cargo r -- <aoc_input_file> <mount_location>` in the
 project's root directory. The `<aoc_input_file>` must be a text file containing any puzzle input
